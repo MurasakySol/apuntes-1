@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Teoría de Gráficas
+
+Prueba de pagina para la clase de teoría de gráficas.
 
 You can use the [editor on GitHub](https://github.com/MurasakySol/apuntes-1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
