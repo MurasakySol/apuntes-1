@@ -1,5 +1,11 @@
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+</script>
+
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/e
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/e"
 
 
 
@@ -24,7 +30,7 @@ conoce?
 
 # Definición
 
-Sea $G$ una gráfica. Un **emparejaiento** $M$ en \(G\) es un
+Sea $G$ una gráfica. Un **emparejaiento** $M$ en $G$ es un
 conjunto de aristas ajenas.
 El emparejamientos \(M\) es **perfecto** si para todo \(v\in V(G)\)
 existe \(e\in M\) tal que \(v\in e\).
