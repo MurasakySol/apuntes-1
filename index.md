@@ -1,39 +1,29 @@
-## Teoría de Gráficas
 
-Prueba de pagina para la clase de teoría de gráficas.
+# Table of Contents
 
-You can use the [editor on GitHub](https://github.com/MurasakySol/apuntes-1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+1.  [Problema](#orgda31252)
+2.  [Definición](#org9ff9d16)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<a id="orgda31252"></a>
 
-```markdown
-Syntax highlighted code block
+# Problema
 
-# Header 1
-## Header 2
-### Header 3
+Se tienen 300 jovenes, 150 hombres y 150 mujeres. Supoga que cada
+hombre conoce a exactamente 50 mujeres y que cada mujer conoce a 50
+hombres. ¿Puede cada hombre escoger pareja entre las mujeres que
+conoce?
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<a id="org9ff9d16"></a>
 
-**Bold** and _Italic_ and `Code` text
+# Definición
 
-[Link](url) and ![Image](src)
-```
+Sea \(G\) una gráfica. Un **emparejaiento** \(M\) en \(G\) es un
+conjunto de aristas ajenas.
+El emparejamientos \(M\) es **perfecto** si para todo \(v\in V(G)\)
+existe \(e\in M\) tal que \(v\in e\).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MurasakySol/apuntes-1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
