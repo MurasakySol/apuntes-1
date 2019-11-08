@@ -1,6 +1,6 @@
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
-    tex2jax: {inlineMath: [["$","$"],["\(","\)"]]}
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
   });
 </script>
 <script type="text/javascript" src="../MathJax.js?config=TeX-AMS_HTML-full"></script>
@@ -28,7 +28,7 @@ conoce?
 
 # Definición
 
-Sea \(G\) una gráfica. Un **emparejaiento** \(M\) en \(G\) es un
+Sea $G$ una gráfica. Un **emparejaiento** $M$ en \(G\) es un
 conjunto de aristas ajenas.
 El emparejamientos \(M\) es **perfecto** si para todo \(v\in V(G)\)
 existe \(e\in M\) tal que \(v\in e\).
